@@ -1,0 +1,215 @@
+
+@font-face {
+  font-family: tanuki;
+  src:url("./TanukiMagic_1_22/TanukiMagic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: corporate;
+  src:url("../assets/font/corpround-ver2-font_202202/Corporate-Logo-Rounded.otf") format("otf");
+}
+
+@font-face {
+  font-family: nikomoji;
+  src:url("../assets/font/nicoca/nicoca/nicoca_v1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iroha;
+  src:url("../assets/font/MODI_irohamaru_2016_0727/irohamaru-Medium.ttf") format("truetype");
+}
+
+/* stylelint-disable selector-list-comma-newline-after */
+body {
+  font-family: "M PLUS 1p";
+}
+
+.tanukiMoji {
+  font-family: tanuki;
+}
+
+.corporate{
+  font-family: corporate;
+}
+
+.nikomoji{
+  font-family: nikomoji;
+}
+
+.iroha{
+  font-family: iroha;
+}
+
+.name{
+  width: 100% ;
+  height: 400px;
+  background-image: url("../assets/img/owarai.jpg");
+  background-size: cover;
+  border-radius: 50px;
+  background-position: center;
+}
+
+.midashi1{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  color: #F6F7FB;
+}
+
+.midashi2{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.blog-header-logo {
+  font-family: "iroha";
+  font-size: 2.25rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1,  h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+body{
+  background-color:#EABD4E;
+}
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  color: #e5e5e5;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
+  1px -1px 0 rgb(0, 0, 0), 0px 1px 0 rgb(0, 0, 0), 0-1px 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 1px 0 0 rgb(0, 0, 0);
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.box3 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: white;
+  background: #9F2431;/*背景色*/
+}
+.box3 p {
+  margin: 0; 
+  padding: 0px;
+}
+
+.maike{
+  padding: 10px;
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+}
+
+.box23 {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 8px 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+.box23:before{font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 15px;
+  left: -40px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.box23:after{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 23px;
+  left: -23px;
+  bottom: 0;
+  color: #fff0c6;
+}
+.box23 p {
+  margin: 0; 
+  padding: 0;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
